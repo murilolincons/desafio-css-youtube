@@ -75,3 +75,61 @@ header {
     margin-top: 30px;
     margin-left: 75px;
 }
+#title-video {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+#container-channel {
+    position: relative;
+}
+#icon-dio-profile {
+    background-image: url('../images/perfil-dio.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 75px;
+}
+#container-channel #name {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 130px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+#container-channel #subscribers {
+    display: inline-block;
+    position: absolute;
+    top: 43px;
+    left: 130px;
+    font-size: 14px;
+    color: #515151;
+}
+#container-channel #sign-up {
+    background-color: #cc0000;
+    color: #fff;
+    width: 159px;
+    height: 40px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 285px;    
+}
+#like {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+#like button {
+    font-weight: bold;
+}
