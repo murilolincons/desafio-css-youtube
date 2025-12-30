@@ -1,7 +1,7 @@
 @import url(../css/global.css);
 
 body {
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
 }
 header {
     background-color: white;
@@ -123,13 +123,69 @@ header {
     left: 285px;    
 }
 #like {
-    display: flex;
-    gap: 10px;
-    align-items: center;
     position: absolute;
     top: 30px;
     left: 500px;
 }
 #like button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
     font-weight: bold;
+}
+#dislike {
+    position: absolute;
+    top: 30px;
+    left: 615px;
+}
+#dislike button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+#share {
+    position: absolute;
+    top: 30px;
+    left: 760px;
+}
+#share button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+#download {
+   
+    position: absolute;
+    top: 30px;
+    left: 920px;
+}
+#download button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+#container-info {
+    width: 950px;
+    margin-top: 85px;
+    margin-left: 75px;
+    line-height: 1.5;
+    display: flex;
+    gap: 20px;
+    flex-flow: column wrap;
+}
+#container-info #paragraph-title {
+    font-weight: bold;
+}
+#paragraph-title span { 
+    font-weight: lighter;
+    color: #3ea6ff;
+}
+#container-info #paragraph, #container-info #paragraph-link  {
+    color: #515151;
+}
+#paragraph-link a {
+    color: #3ea6ff;
 }
