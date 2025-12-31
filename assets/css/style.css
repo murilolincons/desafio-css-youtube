@@ -189,3 +189,31 @@ header {
 #paragraph-link a {
     color: #3ea6ff;
 }
+#container-content {
+    display: flex;
+    gap: 10px;
+}
+.container-side-video {
+    display: flex;
+    gap: 10px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 30px; 
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.side-video {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.side-video .side-video-info p {
+    padding-bottom: 5px;
+}
+.side-video-info .side-video-title {
+    font-weight: bold;
+}   
+.side-video-info .side-video-channel, .side-video-info .side-video-visu, .side-video-info .side-video-time {
+    font-size: 14px;
+    color: #515151;
+}       
